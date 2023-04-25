@@ -1,38 +1,265 @@
-.App {
-  text-align: center;
+.container{
+  background-color: black;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  background-color: rgb(58, 73, 107);
+  width: 100%;
+  height: 15vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;  
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.logo{
+  position: relative;
+  left: 70px;
+  border-radius: 20px;
+  height: 90px;
+}
+
+.welcome{
   color: white;
+  position: relative;
+  left: 100px;
+  justify-content: center;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.list{
+  position: relative;
+  left: 400px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: black;
+  gap: 34px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.container2{
+  background-color: rgb(156, 151, 116);
+  height: 85vh;
+}
+
+.aside{
+  position: relative;
+  height: 55vh;
+  width: 300px;
+  background-color: aquamarine;
+  left: 120px;
+  top: 65px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.title{
+  position: absolute;
+  top: -20px;
+  box-shadow: 0px 4px;
+  left: 70px;
+  color: rgb(7, 10, 2);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.options{
+  position: relative;
+  list-style: none;
+  gap: 40px;
+  left: 30px;
+  top: 170px;
+  color: rgb(3, 9, 44);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.li1{
+  position: relative;
+  top: -50px;
+  text-decoration-style: dotted;
+}
+
+.li2{
+  position: relative;
+  top: -30px;
+}
+
+.li3{
+  position: relative;
+  top: -10px;
+}
+
+.li4{
+  position: relative;
+  top: 10px;
+}
+
+.li5{
+  position: relative;
+  top: 30px;
+}
+
+.main{
+  position: relative;
+  height: 55vh;
+  width: 950px;
+  background-color: rgb(255, 255, 255);
+  left: 520px;
+  top: -340px;
+  border-radius: 8px; 
+}
+
+.image{
+  position: relative;
+  height: 50vh;
+  width: 250px;
+  left: 20px;
+  top: 15px;
+  
+}
+
+.description{
+  position: relative;
+  height: 35vh;
+  width: 600px;
+  left: 300px;
+  top: -48vh;
+  padding: 14px;
+  color: rgb(123, 72, 14);
+}
+
+.imag{
+  height: 50vh;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.footer{
+  position: relative;
+  left: 180px;
+  top: -310px;
+  height: 14vh;
+  width: 80%;
+}
+
+.social{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 950px;
+  gap: 10px;
+  top: -5px;
+  
+}
+
+.path3{
+  position: relative;
+  top: 55px;
+  left: -105px;
+  cursor: pointer;
+}
+
+.path2{
+  position: relative;
+  top: 55px;
+  left: -95px;
+  cursor: pointer;
+}
+
+.path1{
+  position: relative;
+  top: 55px;
+  left: -85px;
+  cursor: pointer;
+}
+
+.InfoContact {
+  position: absolute;
+  width: 217px;
+  height: 69px;
+  left: 226px;
+  top: 0px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  line-height: 23px;
+  color: #000001;
+}
+
+.mail {
+  position: absolute;
+  width: 232px;
+  height: 23px;
+  left: 650px;
+  display: flex;
+  flex-direction: row;
+  top: -19px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  line-height: 23px;
+  /* identical to box height, or 157% */
+  color: #000207;
+}
+
+.phone {
+  position: absolute;
+  width: 91px;
+  height: 23px;
+  left: 650px;
+  top: 30px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  line-height: 23px;
+  /* identical to box height, or 157% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.emailMail{
+  position: absolute;
+  height: 20px;
+  left: -30px;
+  top: 35px;
+  width: 20px;
+}
+
+.phoneCall{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: -30px;
+}
+
+.address{
+  position: absolute;
+  top: 30px;
+  height: 40px;
+  width: 40px;
+  left: -50px;
+}
+
+button{
+  border: none;
+  background-color: aquamarine;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(94, 5, 5);
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: center;
 }
